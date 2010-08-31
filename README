@@ -2,7 +2,7 @@ scc (ServiceConsoleControl) starts stops and restarts Win32 services with all de
 Take the following example:
 
 Examples
-========
+=======
 Service A depends on B and B depends on C.
 	
 	scc stop B 
@@ -13,3 +13,7 @@ scc stops A, stops B and stops C
 
 	scc start A
 scc checks C (will be started if not already started), scc checks B (will be started if not already started) and starts C.
+
+Note
+=======
+The use of this software is at the user's own risk.
