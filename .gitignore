@@ -1,0 +1,4 @@
+#.gitignore
+src/bin/**
+src/obj/**
+src/Properties/**
